@@ -19,8 +19,7 @@ function controls.listen()
         --         :give("velocity", 0, 75)
         -- end
         Hero:give("velocity", 0, 75)
-    end
-    if love.keyboard.isDown("a") then
+    elseif love.keyboard.isDown("a") then
         -- if not Hero:has("animation") then
         --     Hero:give("animation", 0.75, {56, 57, 62, 59, 60, 63})
         --         :give("velocity", -75, 0)
